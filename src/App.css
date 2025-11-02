@@ -1,0 +1,102 @@
+/* Neon Glow Todo App */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1b1b2f, #16213e);
+  font-family: 'Poppins', sans-serif;
+}
+
+.app {
+  background: #0f172a;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px #00fff5;
+  border: 2px solid #00fff5;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  color: #00fff5;
+  font-size: 28px;
+  text-shadow: 0 0 10px #00fff5, 0 0 20px #00fff5;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #00fff5;
+  border-radius: 6px;
+  background: transparent;
+  color: #00fff5;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 255, 245, 0.3);
+}
+
+input::placeholder {
+  color: #00fff5a8;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #00fff5;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  box-shadow: 0 0 15px #00fff5;
+}
+
+button:hover {
+  background: #00e6d9;
+  box-shadow: 0 0 25px #00fff5, 0 0 50px #00fff5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 255, 245, 0.05);
+  border: 1px solid #00fff5;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  color: #00fff5;
+  box-shadow: 0 0 10px rgba(0, 255, 245, 0.2);
+}
+
+li button {
+  width: auto;
+  margin-left: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  background: #00fff5;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li button:hover {
+  box-shadow: 0 0 15px #00fff5;
+  background: #00e6d9;
+}
