@@ -7,7 +7,7 @@ function TodoApp() {
   const [todos, setTodos] = useState([]);
   const [editId, setEditId] = useState(null);
 
-  const API = "http://localhost:5000/todos"
+  const API ="https://react-todo-backend-production-1942.up.railway.app.railway.app";
   // Fetch all todos
   useEffect(() => {
     fetchTodos();
