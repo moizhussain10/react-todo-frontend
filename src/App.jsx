@@ -8,7 +8,7 @@ function TodoApp() {
   const [editId, setEditId] = useState(null);
 
   // ✅ Correct backend URL
-  const API = "https://react-todo-backend-production-1a01.up.railway.app";
+  const API = "https://react-todo-backend-production-89f3.up.railway.app";
 
   // ✅ Fetch all todos
   useEffect(() => {
